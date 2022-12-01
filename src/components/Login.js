@@ -9,7 +9,7 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(email);
-        fetch('http://localhost:5000/login', {
+        fetch('https://notebook-app-backend.onrender.com/login', {
             method: 'POST',
             crossDomain: true,
             headers: {

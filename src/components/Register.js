@@ -11,7 +11,7 @@ const Register = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(name, email, password);
-        fetch('http://localhost:5000/register', {
+        fetch('https://notebook-app-backend.onrender.com/register', {
             method: 'POST',
             crossDomain: true,
             headers: {
