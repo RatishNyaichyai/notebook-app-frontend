@@ -13,8 +13,8 @@ function App() {
   return (
     <Fragment>
       <Routes>
-        <Route path='/home' element={<Homepage />}></Route>
-        <Route path='/' element={<Register />}></Route>
+        <Route path='/' element={<Homepage />}></Route>
+        <Route path='/register' element={<Register />}></Route>
         <Route path='/login' element={<Login />}></Route>
       </Routes>
 
