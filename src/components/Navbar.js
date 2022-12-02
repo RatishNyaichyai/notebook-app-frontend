@@ -8,7 +8,7 @@ const Navbar = () => {
             <section className='logo'>NOTEBOOK</section>
             <ul className='nav-links'>
                 <li className='nav-item'><Link to='/register'>Register</Link></li>
-                <li className='nav-ltem'><a href='/login'>Login</a></li>
+                <li className='nav-ltem'><Link to='/login'>Login</Link></li>
             </ul>
         </nav>
     )
